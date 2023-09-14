@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.container{
+  width: 100%;
+  margin: 0.5rem 0;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+.col-3{
+  width: 20%;
+
+}
+.col-6{
+  width: 60%; 
+  padding: 0 0.5rem;
+
+}
+.d-flex{
+  display: flex;
+  justify-content: center;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.align-item{
+  display: flex;
+ align-items: center;
+}
+.mx-1{
+  margin:0 1.5rem;
+}
+.my-1{
+  margin:10px 0;
+ }
+.py-1{
+  padding: 1rem 0;
+}
+.px-1{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.gap-1{
+  gap: 0.5rem;
+}
+ul{
+  list-style: none;
+ 
+}
+li{
+  text-decoration: none;
+}
+p{
+  font-size:1rem;
+  font-weight: 500;
+}
+.pos-profile img{
+  object-fit:cover;
+}
+.main-bg{
+  background-color: rgb(202, 201, 199);
+  margin: 0;
+  padding: 0;
+}
+.space-arround{
+  display: flex;
+  justify-content: space-around;
+}
+h1{
+  color: rgb(137,130,130);
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+h2{
+  margin-top: 17px;
+  text-indent: 40px;
+  font-size: 1.1rem;
+  color:rgb(72, 60, 60);
+}
+h3{
+  font-size:1.2rem;
+  font-weight: 500;
+}
+h4{
+  font-size: 1rem;
+  color: rgb(137,130,130);
+  font-weight: 300;
+}
+.p-2{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 20px;
+}
+.over-hidden{
+  display: flex;
+  overflow: hidden;
+}

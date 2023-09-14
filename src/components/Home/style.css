@@ -1,0 +1,95 @@
+.card{
+    width: 130px;
+    height: 190px;
+    margin: 10px 0; 
+    border-radius: 15px;
+    box-shadow: 2px 2px 1px #d8d5d5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+   
+}
+.card-body{
+    text-align: center;
+    padding: 20px;
+    
+}
+.plus{
+    color:#0073cf;
+    font-size: 2.5rem;
+   
+}
+.bg-plus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    bottom: 25px;
+    left: 41px;
+}
+.card-img-top
+{
+    width:100%;
+    object-fit: cover;
+}
+ .pos-profile{
+   border: 4px solid #0073cf;
+    top: 10px;
+    left: 10px;
+}
+.text-pos{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    text-align: center;
+    
+}
+.post-card{
+    background-color: #fff;
+    border-radius: 15px;
+    height: 150px;
+    box-shadow: 2px 2px 1px #d8d5d5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:30px;
+
+}
+.post-card .search-box{
+    width: 570px;
+    text-indent: 0;
+    font-size: 1.2rem;
+}
+.d-flex i{
+    font-size: 2rem;
+}
+.feed-card{
+    background-color: #fff;
+    border-radius: 15px;
+    height: 500px;
+    box-shadow: 2px 2px 1px #d8d5d5;
+}
+.flex-col i{
+    font-size: inherit;
+}
+.prev{
+    position: absolute;
+    left: 130px;
+    top: 89px;
+    z-index: 1; 
+}
+.next{
+    position: absolute;
+    left:770px;
+    top: 89px;
+    z-index: 2;
+}
