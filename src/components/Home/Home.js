@@ -13,7 +13,7 @@ const Home = () => {
 
   return (
     <>
-
+    
       <div className='over-hidden' >
          <Sliderstory/>
       </div>
@@ -25,7 +25,7 @@ const Home = () => {
           <Feed />
         </div>
 
-
+        
       </div>
 
     </>

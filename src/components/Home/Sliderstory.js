@@ -32,11 +32,14 @@ const Sliderstory = () => {
     
  
   return (
+
  <>
  < div style={{position:'relative'}} >
+  
  <button className="prev" onClick={prevbtn} type="" > <AiOutlineArrowLeft /> </button>
 <button className="next" onClick={nextbtn}  type="">  <AiOutlineArrowRight /></button> 
  <div   className='d-flex gap-1 'id='slider'>
+
           <Story/>
          <Userstory />
         <Userstory />

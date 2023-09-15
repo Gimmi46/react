@@ -18,12 +18,12 @@ const Feed = () => {
                             </div>
                             <div className="flex-col">
                                 <h3>voice of</h3>
-                                <h4 className='align-item gap-1'>sucees of life  <span> 2 hrs  <i><FaEarthAmericas /></i> </span> </h4>
+                                <h4 className='align-item gap-1'>success of life  <span> 2 hrs  <i><FaEarthAmericas /></i> </span> </h4>
                             </div>
                         </div>
                     </div>
                     <div>
-                        hgsh
+                       
                     </div>
                 </div>
                 <h2>hcghss jvhfgj</h2>
