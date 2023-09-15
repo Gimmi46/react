@@ -9,7 +9,7 @@ const Post = () => {
   return (
     <>
 
-      <div className='post-card'>
+      <div className='post-card my-1'>
         <div className='d-flex gap-1'>
           <div className='circle-profile'>
             <img src={profile} alt="" width={'40px'} />

@@ -7,27 +7,28 @@ import { AiOutlineArrowLeft } from "react-icons/ai";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Sliderstory = () => {
-  const [boxval, setBoxval] = useState(null);
+  // const [boxval, setBoxval] = useState(null);
 
-  useEffect(()=>{
-    console.log("hjdshjsdhds")
-    let box=document.getElementById("slider");
-    setBoxval(box)
-    console.log(box,"dsjkdsjkds")
-  },[])
+  // useEffect(()=>{
+  //   console.log("hjdshjsdhds")
+  //   let box=document.getElementById("slider");
+  //   setBoxval(box)
+  //   console.log(box,"dsjkdsjkds")
+  // },[])
+  let box=document.getElementById("slider");
     const prevbtn=()=>{
-      let width=boxval.clientWidth;
-      boxval.scrollLeft=boxval.scrollLeft - width;
+      let width=box.clientWidth;
+      box.scrollLeft=box.scrollLeft - width;
       console.log(width)
     
      }
      const nextbtn=()=>{
-       let width=boxval.clientWidth;
-       boxval.scrollLeft=boxval.scrollLeft + width
+       let width=box.clientWidth;
+       box.scrollLeft=box.scrollLeft + width
        console.log(width)
     
       }
-
+     
     
  
   return (

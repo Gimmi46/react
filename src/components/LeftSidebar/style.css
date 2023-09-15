@@ -1,0 +1,17 @@
+.l-menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 20px 0px;
+    gap: 10px;
+}
+.l-menu i{
+    display:flex;
+    align-items:center ;
+    color:#0073cf;
+    font-size: 1.7rem !important;
+}
+.l-menu h3{
+    color: black;
+    font-size: 1.3rem;
+}

@@ -12,7 +12,7 @@ function App() {
        <Header/>
        <div className='container'>
                 <div className='row main-bg'>
-                    <div className='col-3 d-flex'>
+                    <div className='col-3 '>
                         <Leftbar />
                     </div>
 

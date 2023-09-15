@@ -18,9 +18,8 @@ const Home = () => {
          <Sliderstory/>
       </div>
       <div>
-        <div className='  my-1'>
+        < div className='  my-1'>
           <Post />
-
         </div>
         <div className=' my-1'>
           <Feed />
